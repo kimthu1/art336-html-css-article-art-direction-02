@@ -1,0 +1,46 @@
+body {
+                background-color: rgb(118, 197, 255);
+                width: 550px;
+                margin: 0 auto;
+            }
+            
+            body p, header, footer {
+                color: #434343;
+                font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+                text-align: justify;
+            }
+            
+            header {
+                text-align: center;
+            }
+            
+            #img {
+            width: 530px;
+            height: 350px;
+            }
+            
+            main, header, footer {
+                border: solid 1px;
+                border-color: black;
+                margin: 20px auto;
+                padding: 0 10px;
+            }
+            
+            nav {
+                border: solid 1px;
+                border-color: black;
+                font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+                list-style: none;
+                position: fixed;
+                margin-top: -15px;
+                margin-left: -125px;
+            }
+            
+            nav a {
+                text-decoration: none;
+                
+            }
+            
+            li {
+            display: inline;
+            }
